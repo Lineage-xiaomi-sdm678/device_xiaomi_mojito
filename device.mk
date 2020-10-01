@@ -32,6 +32,9 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    Remove_Packages
 
 # Sensor
 TARGET_ENABLE_MULTI_SENSOR := true
