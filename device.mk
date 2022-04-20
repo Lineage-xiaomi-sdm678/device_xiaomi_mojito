@@ -10,6 +10,9 @@ TARGET_IS_VAB := true
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Disable APEX compression
+PRODUCT_COMPRESSED_APEX := false
+
 # Audio
 TARGET_ENABLE_AUDIO_ULL := true
 
